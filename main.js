@@ -36,6 +36,13 @@ for (i = 0; i < grades.length; i++) {
 // Challenge 3
 // Console.log out only the even numbers in the following array.
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
+console.log("|||||***** Challenge 3 *****|||||");
+
+for (i = 0; i < positiveNumbers.length; i++){
+  if (positiveNumbers[i] % 2 === 0){
+    console.log(positiveNumbers[i])
+  }
+}
 
 // Challenge 4
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
