@@ -7,6 +7,8 @@
 // Challenge 1
 //
 // Loop through the following array, console.logging out each value.
+console.log("|||||***** Challenge 1 *****|||||");
+
 const students = [
 	"Tre",
 	"Sonny",
@@ -18,7 +20,6 @@ const students = [
 	"Patrick",
 	"Steve",
 ];
-console.log("|||||***** Challenge 1 *****|||||");
 
 for (i = 0; i < students.length; i++) {
 	console.log(students[i]);
@@ -26,10 +27,14 @@ for (i = 0; i < students.length; i++) {
 
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
-const grades = [100, 80, 110, 75, 83, 64];
 console.log("|||||***** Challenge 2 *****|||||");
 
+const grades = [100, 80, 110, 75, 83, 64];
+
 console.log(grades.reverse())
+for (i = 0; i < grades.length; i++) {
+	console.log(grades[i]);
+}
 
 // Challenge 3
 // Console.log out only the even numbers in the following array.
