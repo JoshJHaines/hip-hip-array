@@ -161,6 +161,9 @@ for ( i=0; i<dinosaurs.length; i++){
 // Challenge 13
 // Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
 console.log("|||||***** Challenge 13 *****|||||");
+const bigDino = dinosaurs.concat(dinoSplice);
+console.log(bigDino);
+console.log(bigDino.join('*'));
 
 // Challenge 14
 // Use .reverse to reverse the dinosaur array and then log out the original array. .reverse DOES change the original array.
