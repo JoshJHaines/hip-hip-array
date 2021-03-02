@@ -29,9 +29,7 @@ for (i = 0; i < students.length; i++) {
 const grades = [100, 80, 110, 75, 83, 64];
 console.log("|||||***** Challenge 2 *****|||||");
 
-for (i = 0; i < grades.length; i++) {
-	console.log(grades[i]);
-}
+console.log(grades.reverse())
 
 // Challenge 3
 // Console.log out only the even numbers in the following array.
