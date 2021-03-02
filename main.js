@@ -100,21 +100,33 @@ for (i = 0; i < newArr1.length; i++){
 
 // Challenge 8
 // Make a new EMPTY array and fill it with five values of your choice using BOTH .push AND .unshift, and then console.log out each value individually.
+
+console.log("|||||***** Challenge 8 *****|||||");
 const emptyArr = []
 emptyArr.unshift(1,2,3)
 emptyArr.push(4,5)
 console.log(emptyArr)
 // Challenge 9
 // Loop through the `students` array from Challenge 1, starting at index 3 and ending at index 10 (INCLUSIVE), logging out each value individually.
+console.log("|||||***** Challenge 9 *****|||||");
+for (i = 3; i < 11; i++) {
+	console.log(students[i]);
+}
+
 
 // Challenge 10
 // Loop through the `students` array from Challenge 1, making a COPY of the array, starting at index 3 and ending at index 10 (INCLUSIVE). This is very similar to string building; create a new array, loop through the old one, and put values from the original in the new one. Then log out each value of the copy indivudally.
 
+console.log("|||||***** Challenge 10 *****|||||");
+
 // Challenge 11
 // Make a COPY of the `students` array *using .slice*, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy individually. THEN log out each value of the original array. Notice that the original array didn't get any values taken out of it, because `slice` does NOT modify the original array.
 
+console.log("|||||***** Challenge 11 *****|||||");
+
 // Challenge 12
 // Pull the items at indices 4-6 (inclusive) from the following array using .splice (NOT .slice!), then console.log out each item from the ORIGINAL array. Note that .splice DOES change the original array.
+console.log("|||||***** Challenge 12 *****|||||");
 const dinosaurs = [
 	"Velociraptor",
 	"T-Rex",
@@ -128,11 +140,14 @@ const dinosaurs = [
 
 // Challenge 13
 // Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
+console.log("|||||***** Challenge 13 *****|||||");
 
 // Challenge 14
 // Use .reverse to reverse the dinosaur array and then log out the original array. .reverse DOES change the original array.
+console.log("|||||***** Challenge 14 *****|||||");
 
 // Challenge 15
 // Use .concat to combine the following two arrays into a NEW array you make (.concat RETURNS an array). Then console.log out each value of that new array individually. Now console.log both the primaries and secondaries arrays, noting that .concat does NOT mutate the original arrays.
+console.log("|||||***** Challenge 15 *****|||||");
 const primaries = ["red", "yellow", "blue"];
 const secondaries = ["orange", "green", "purple"];
