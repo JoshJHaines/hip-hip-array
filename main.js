@@ -69,6 +69,11 @@ const symmetricalCapitals = [
 	"X",
 	"Y",
 ];
+console.log("|||||***** Challenge 5 *****|||||");
+let newArr = symmetricalCapitals.splice(0,2);
+console.log(newArr)
+
+
 
 // Challenge 6
 // Add a value (your choice!) to the start of the following array and two values (of your choice) to the end simply by adding them in the following line, and then console.log out each value individually.
