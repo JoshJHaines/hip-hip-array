@@ -175,3 +175,9 @@ console.log(dinosaurs.reverse())
 console.log("|||||***** Challenge 15 *****|||||");
 const primaries = ["red", "yellow", "blue"];
 const secondaries = ["orange", "green", "purple"];
+const colors = primaries.concat(secondaries);
+for (i=0; i < colors.length; i++){
+	console.log(colors[i])
+}
+console.log("Primaries:",primaries);
+console.log("Secondaries:", secondaries)
