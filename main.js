@@ -100,7 +100,10 @@ for (i = 0; i < newArr1.length; i++){
 
 // Challenge 8
 // Make a new EMPTY array and fill it with five values of your choice using BOTH .push AND .unshift, and then console.log out each value individually.
-
+const emptyArr = []
+emptyArr.unshift(1,2,3)
+emptyArr.push(4,5)
+console.log(emptyArr)
 // Challenge 9
 // Loop through the `students` array from Challenge 1, starting at index 3 and ending at index 10 (INCLUSIVE), logging out each value individually.
 
