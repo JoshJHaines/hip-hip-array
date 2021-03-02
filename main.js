@@ -152,6 +152,11 @@ const dinosaurs = [
 	"Spinosaurus",
 	"Gigantosaur",
 ];
+let dinoSplice = dinosaurs.splice(4, 3);
+console.log(dinoSplice)
+for ( i=0; i<dinosaurs.length; i++){
+	console.log(dinosaurs[i])
+}
 
 // Challenge 13
 // Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
