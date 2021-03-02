@@ -70,8 +70,13 @@ const symmetricalCapitals = [
 	"Y",
 ];
 console.log("|||||***** Challenge 5 *****|||||");
-let newArr = symmetricalCapitals.splice(0,2);
-console.log(newArr)
+// let newArr = symmetricalCapitals.splice(0,2);
+// console.log("symmetricalCapitals", symmetricalCapitals)
+// console.log("newArr", newArr)
+symmetricalCapitals.splice(0,2);
+symmetricalCapitals.pop()
+
+console.log("symmetricalCapitals", symmetricalCapitals)
 
 
 
